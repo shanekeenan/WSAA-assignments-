@@ -8,22 +8,12 @@ Author: Shane Keenan
 
 ## About 
 
-This repository contains two folders assignments and labs - 
+This repository contains assignments  - 
 
 1. assignments - contains code for weekly assignments 
     - currentweather.py   (Week 2 - Topic02 Representing Data)
     - assignment03-cso.py (Week 4 - Topic 04 Reading apis in the wild)
-    - assignment04-github.py    (Week 5 - Topic 05 Authentication)
-    - 
-    - 
-    - 
-    - 
-    - 
-
-2. labs - contains code for the weekly labs 
-
-
-
+    - assignment04-github.py    (Week 5 - Topic 05 Authentication) 
 
 
 ## Running the code 
@@ -41,40 +31,13 @@ steps to create:
 
 ## Required python packages
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import random 
-from PIL import Image
-import os
-
-import numpy as np 
-import pandas as pd 
-import matplotlib.pyplot as plt 
-import seaborn as sns 
-import random 
-import os
-from scipy.stats import norm
+``import requests``
+``import json``
+``from github import Github``
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### fine-grained token to access repo /shanekeenan/aprivate stored in config.py file.  
+``from config import apikeys as cfg``
 
 
 # Topic02 Representing Data
@@ -89,15 +52,15 @@ Look at the documentation (below) and print out the current wind direction (10m)
 🌤️ Free Open-Source Weather API | Open-Meteo.com
 
 Status: complete 
-Date: 17/11/2023
+Date: 17/02/2024
 
 
 # Topic03 Data Transfer
 
 Assignment 
 Quiz - HTTP and URLs 
-status: complete - 100 % yeah !  
-date: 23/02/2024
+Status: complete - 100 % yeah !  
+Date: 23/02/2024
 
 
 # Assignment 3 from Topic 04 Reading apis in the wild
@@ -110,6 +73,8 @@ I don't need you to reformat or analyse the data in any way
 It should be about 10ish lines long (I have not counted)
 You will need to find the dataset in CSO.ie, try economic and then finance, then finance indicators. yes it is difficult to find, that is part of the task, actually the easiest way to find it is search for it.
 
+Status: complete 
+Date: 18/03/2024
 
 
 # Assignment 04 from Topic 05 Authentication
@@ -121,5 +86,15 @@ I do not need to see your keys (see lab2, to follow)
 Handup: Push the program as assignment04-github.py to assignments repository.
 Marks: Marks will be given for the functionality and layout of the code; I do expect minimal comments to indicate you know what the program is doing.
 
+Status: complete 
+Date: 03/05/2024
+
+
+# TOPIC 06 Creating your own API with FLASK
+
+Assignment 
+Quiz - Virtual environments and FLask
+Dtatus: complete - 8.67/10   
+Date: 06/05/2024
 
 
